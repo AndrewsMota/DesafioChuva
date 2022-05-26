@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto&display=swap');
+
+body {
+    margin: 0 auto;
+}
+
+.sidebar{
+    
+    position:fixed;
+    width: 220px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+}
+    
+
+
+.sidebar .side-header {
+    height: 68px;
+    margin-top: 0;
+  
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+
+.sidebar .text {
+    position: absolute;
+    left: 9.09%;
+    right: 10%;
+    top: 1.6%;
+    letter-spacing: 1px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35.5px;
+
+    color: #ffffff;
+}
+
+.side-menu  a:link, a:visited, ul {
+   
+    
+    line-height: 30px;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color:  #725C5C;
+    
+    box-sizing: border-box ;
+    margin: 0 auto;
+    padding-left: 2px;    
+    list-style-type: none ;
+    text-decoration: none;
+    display:block;width:200px;
+}
+
+.side-menu a:visited{
+    width: 20px;
+    color: black;
+}
+
+
+.side-menu a:hover{
+    list-style-type: marker ;
+    background-color: #FDF1EB;
+    color: black
+}
+
+
